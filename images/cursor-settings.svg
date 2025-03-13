@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" rx="5" ry="5" fill="#1e1e2e" />
+  
+  <!-- 侧边栏 -->
+  <rect width="150" height="400" fill="#181825" />
+  
+  <!-- 侧边栏菜单项 -->
+  <g>
+    <rect x="10" y="60" width="130" height="30" rx="3" ry="3" fill="#313244" />
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">General</text>
+  </g>
+  
+  <g>
+    <rect x="10" y="100" width="130" height="30" rx="3" ry="3" fill="#313244" />
+    <text x="40" y="120" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Editor</text>
+  </g>
+  
+  <g>
+    <rect x="10" y="140" width="130" height="30" rx="3" ry="3" fill="#89b4fa" />
+    <text x="40" y="160" font-family="Arial, sans-serif" font-size="14" fill="#1e1e2e" font-weight="bold">Features</text>
+  </g>
+  
+  <g>
+    <rect x="10" y="180" width="130" height="30" rx="3" ry="3" fill="#313244" />
+    <text x="40" y="200" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Keybindings</text>
+  </g>
+  
+  <!-- 主内容区 -->
+  <g>
+    <text x="170" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#cdd6f4">Features</text>
+    
+    <!-- 分隔线 -->
+    <line x1="170" y1="50" x2="580" y2="50" stroke="#313244" stroke-width="1" />
+    
+    <!-- MCP Servers 部分 -->
+    <text x="170" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#cdd6f4">MCP Servers</text>
+    <text x="170" y="100" font-family="Arial, sans-serif" font-size="12" fill="#a6adc8">Configure Model Context Protocol servers to extend AI capabilities</text>
+    
+    <!-- 服务器列表 -->
+    <rect x="170" y="120" width="410" height="40" rx="3" ry="3" fill="#313244" />
+    <text x="180" y="140" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Sequential Thinking</text>
+    <circle cx="560" cy="140" r="8" fill="#a6e3a1" />
+    
+    <rect x="170" y="170" width="410" height="40" rx="3" ry="3" fill="#313244" />
+    <text x="180" y="190" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Brave Search</text>
+    <circle cx="560" cy="190" r="8" fill="#a6e3a1" />
+    
+    <rect x="170" y="220" width="410" height="40" rx="3" ry="3" fill="#313244" />
+    <text x="180" y="240" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Puppeteer</text>
+    <circle cx="560" cy="240" r="8" fill="#f9e2af" />
+    
+    <!-- 添加按钮 -->
+    <rect x="170" y="280" width="150" height="35" rx="5" ry="5" fill="#89b4fa" />
+    <text x="245" y="303" font-family="Arial, sans-serif" font-size="14" fill="#1e1e2e" font-weight="bold" text-anchor="middle">Add New MCP Server</text>
+  </g>
+  
+  <!-- 弹出窗口 -->
+  <g>
+    <rect x="150" y="100" width="300" height="200" rx="5" ry="5" fill="#313244" stroke="#89b4fa" stroke-width="2" />
+    <text x="300" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#cdd6f4" text-anchor="middle">Add MCP Server</text>
+    
+    <text x="170" y="160" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Connection Type:</text>
+    <rect x="170" y="170" width="260" height="25" rx="3" ry="3" fill="#1e1e2e" />
+    <text x="180" y="187" font-family="Arial, sans-serif" font-size="12" fill="#cdd6f4">Stdio/local</text>
+    
+    <text x="170" y="210" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">Command:</text>
+    <rect x="170" y="220" width="260" height="25" rx="3" ry="3" fill="#1e1e2e" />
+    <text x="180" y="237" font-family="Arial, sans-serif" font-size="12" fill="#cdd6f4">npx -y @modelcontextprotocol/server-sequential-thinking</text>
+    
+    <rect x="250" y="260" width="80" height="30" rx="5" ry="5" fill="#89b4fa" />
+    <text x="290" y="280" font-family="Arial, sans-serif" font-size="14" fill="#1e1e2e" font-weight="bold" text-anchor="middle">Add</text>
+  </g>
+</svg>
