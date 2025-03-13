@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" rx="5" ry="5" fill="#1e1e2e" />
+  
+  <!-- 编辑器窗口 -->
+  <g>
+    <!-- 标题栏 -->
+    <rect x="20" y="20" width="560" height="30" rx="5" ry="5" fill="#181825" />
+    <text x="40" y="40" font-family="Arial, sans-serif" font-size="14" fill="#cdd6f4">mcp.json - Cursor</text>
+    
+    <!-- 编辑器内容 -->
+    <rect x="20" y="50" width="560" height="330" rx="0" ry="0" fill="#11111b" />
+    
+    <!-- 行号 -->
+    <rect x="20" y="50" width="30" height="330" fill="#181825" />
+    <text x="35" y="75" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">1</text>
+    <text x="35" y="100" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">2</text>
+    <text x="35" y="125" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">3</text>
+    <text x="35" y="150" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">4</text>
+    <text x="35" y="175" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">5</text>
+    <text x="35" y="200" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">6</text>
+    <text x="35" y="225" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">7</text>
+    <text x="35" y="250" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">8</text>
+    <text x="35" y="275" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">9</text>
+    <text x="35" y="300" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">10</text>
+    <text x="35" y="325" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">11</text>
+    <text x="35" y="350" font-family="Consolas, monospace" font-size="14" fill="#6c7086" text-anchor="end">12</text>
+    
+    <!-- 代码内容 -->
+    <text x="60" y="75" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">{</text>
+    <text x="60" y="100" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">  "mcpServers": {</text>
+    <text x="60" y="125" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    "sequential_thinking": {</text>
+    <text x="60" y="150" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">      "command": "npx",</text>
+    <text x="60" y="175" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]</text>
+    <text x="60" y="200" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    },</text>
+    <text x="60" y="225" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    "brave_search": {</text>
+    <text x="60" y="250" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">      "command": "env",</text>
+    <text x="60" y="275" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">      "args": ["BRAVE_API_KEY=your_key_here", "npx", "-y", "@modelcontextprotocol/server-brave-search"]</text>
+    <text x="60" y="300" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    }</text>
+    <text x="60" y="325" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">  }</text>
+    <text x="60" y="350" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">}</text>
+    
+    <!-- 语法高亮 -->
+    <text x="60" y="75" font-family="Consolas, monospace" font-size="14" fill="#89b4fa">{</text>
+    <text x="60" y="100" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">mcpServers</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: {</tspan></text>
+    <text x="60" y="125" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">sequential_thinking</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: {</tspan></text>
+    <text x="60" y="150" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">command</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">npx</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">,</tspan></text>
+    <text x="60" y="175" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">args</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">-y</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">@modelcontextprotocol/server-sequential-thinking</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">]</tspan></text>
+    <text x="60" y="200" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    },</text>
+    <text x="60" y="225" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">brave_search</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: {</tspan></text>
+    <text x="60" y="250" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">command</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">env</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">,</tspan></text>
+    <text x="60" y="275" font-family="Consolas, monospace" font-size="14"><tspan fill="#89b4fa">"</tspan><tspan fill="#f38ba8">args</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">: [</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">BRAVE_API_KEY=your_key_here</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">npx</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">-y</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#a6e3a1">@modelcontextprotocol/server-brave-search</tspan><tspan fill="#89b4fa">"</tspan><tspan fill="#cdd6f4">]</tspan></text>
+    <text x="60" y="300" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">    }</text>
+    <text x="60" y="325" font-family="Consolas, monospace" font-size="14" fill="#cdd6f4">  }</text>
+    <text x="60" y="350" font-family="Consolas, monospace" font-size="14" fill="#89b4fa">}</text>
+  </g>
+</svg>
