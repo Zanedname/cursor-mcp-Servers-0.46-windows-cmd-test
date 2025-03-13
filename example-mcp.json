@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "sequential_thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "brave_search": {
+      "command": "env",
+      "args": ["BRAVE_API_KEY=your_key_here", "npx", "-y", "@modelcontextprotocol/server-brave-search"]
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"]
+    },
+    "file_system": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fs"]
+    }
+  }
+}
