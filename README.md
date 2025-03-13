@@ -1,5 +1,10 @@
 # Cursor MCP Servers 0.46 Windows 配置指南
 
+这是全部在cursor中进行的，从仓库创建-文件生成-README配置全套-到上传更新仓库-全都是在cursor中用自然语言实现的。这是全部在cursor中进行的，从仓库创建-文件生成-README配置全套-到上传更新仓库-全都是在cursor中用自然语言实现的。
+（仓库中的部分内容应该是有问题的，所以不要100%相信它）
+This is all done in Cursor. From repository creation to file generation, full README configuration, and up to uploading and updating the repository. 
+It's all achieved using natural language in Cursor. (Some of the content in the repository may be problematic, so don't trust it 100%).
+
 ![Cursor MCP Banner](images/cursor-mcp-banner.svg)
 
 ## 简介
